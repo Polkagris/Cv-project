@@ -30,18 +30,20 @@
                 }
             }
         ],
-        "Education": [
-            {
+        "Education": {
+            
             "Education1":{
-                "place":"",
-                "duration":""
+                "place":"Oslo Metropolitan University",
+                "study":"Electronics and IT",
+                "duration":"2015 - 2018"
                 },
             "Education2":{
-                "place":"",
-                "duration":""
+                "place":"Oslo University",
+                "study":"Electronics and IT",
+                "duration":"2019 - 2013"
                 }
-            }
-        ]
+            
+        }
     
         }
     

@@ -25,6 +25,7 @@ router.get('/about', function(req, res, next) {
 /* JSON DATA. */
 router.get('/data', function(req, res, next) {
   res.json(dataRouter);
+
 });
 
 
