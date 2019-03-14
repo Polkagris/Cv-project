@@ -4,12 +4,14 @@ var router = express.Router();
 
 const dataRouter = require('../data/data.json');
 
-/* GET home page. */
+/* GET HOME PAGE. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'OK' });
+
+  res.render('index', { title : 'CV', data : dataRouter });
+  console.log(dataRouter);
 });
 
-/* GET home page. */
+/* JSON DATA. */
 router.get('/data', function(req, res, next) {
   res.json(dataRouter);
 });
