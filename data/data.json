@@ -1,0 +1,48 @@
+
+    {
+        "Name":"",
+        "Title":"",
+        "YearOfBirth":"",
+        "Phone": "",
+        "Email":"",
+        "Nationality":"",
+        "Address":"",
+        "About":"",
+        "Projects": {
+                "project1":"",
+                "project2":"",
+                "project3":""
+            },
+        "Work experience": [
+            {
+            "work1":{
+                "place":"",
+                "duration":""
+                },
+            "work2":{
+                "place":"",
+                "duration":""
+                },
+            "work3":{
+                "place":"",
+                "duration":""
+                }
+            }
+        ],
+        "Education": [
+            {
+            "Education1":{
+                "place":"",
+                "duration":""
+                },
+            "Education2":{
+                "place":"",
+                "duration":""
+                }
+            }
+        ]
+    
+        }
+    
+    
+    
