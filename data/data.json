@@ -1,13 +1,14 @@
 
     {
-        "Name":"Billy Infante",
+        "Name":"Arne Bjerkås",
         "Title":"Java fullstack developer",
-        "YearOfBirth":"",
+        "YearOfBirth":"1990",
         "Phone": "",
-        "Email":"",
-        "Nationality":"",
+        "Email":"arnenbj@gmail.com",
+        "Nationality":"Norwegian",
         "Address":"",
         "About":"",
+        "Image": "img/arne.jpg",
         "Projects": {
                 "project1":"",
                 "project2":"",
