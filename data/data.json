@@ -8,28 +8,32 @@
         "Nationality":"Norwegian",
         "Address":"",
         "About":"",
+        "Github":"https://github.com/Polkagris",
         "Image": "img/arne.jpg",
         "Projects": {
-                "project1":"",
-                "project2":"",
-                "project3":""
+                "project1":"Vue E-shop",
+                "project2":"React e-book reader",
+                "project3":"Javascript Reddit API",
+                "project4":"jQuery Pokedex"
             },
-        "Work experience": [
+        "Work_experience": 
             {
             "work1":{
-                "place":"",
-                "duration":""
+                "place":"Experis Academy",
+                "title":"Fullstack Java developer",
+                "duration":"2019 - Present"
                 },
             "work2":{
-                "place":"",
-                "duration":""
+                "place":"NSB",
+                "title":"Kundeveileder",
+                "duration":"2011 - 2018"
                 },
             "work3":{
-                "place":"",
-                "duration":""
+                "place":"Diverse småjobber",
+                "duration":"2006 - 2010"
                 }
             }
-        ],
+        ,
         "Education": {
             
             "Education1":{
@@ -39,7 +43,7 @@
                 },
             "Education2":{
                 "place":"Oslo University",
-                "study":"Electronics and IT",
+                "study":"Bachelor in languages",
                 "duration":"2019 - 2013"
                 }
             

@@ -129,26 +129,24 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="content-item">
-                    <small>2019 - Present</small>
-                    <h3>Fullstack Java developer</h3>
-                    <h4>Experis Academy</h4>
+                    <small>{{data.Work_experience.work1.duration}}</small>
+                    <h3>{{data.Work_experience.work1.title}}</h3>
+                    <h4>{{data.Work_experience.work1.place}}</h4>
 
                     <p>Norway, Oslo</p>
                 </div>
                 <!-- .experience-item -->
                 <div class="content-item">
-                    <small>2011 - 2018</small>
-                    <h3>Service assistant</h3>
-                    <h4>NSB</h4>
+                    <small>{{data.Work_experience.work2.duration}}</small>
+                    <h3>{{data.Work_experience.work2.title}}</h3>
+                    <h4>{{data.Work_experience.work2.place}}</h4>
 
                     <p>Norway, Oslo</p>
                 </div>
                 <!-- .experience-item -->
                 <div class="content-item">
-                    <small>2006 - 2010</small>
-                    <h3>Various odd jobs</h3>
-
-                    <p>Norway, Lillehammer</p>
+                    <small>{{data.Work_experience.work3.duration}}</small>
+                    <h3>{{data.Work_experience.work3.place}}</h3>
                 </div>
                 <!-- .experience-item -->
             </div>
@@ -245,13 +243,13 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <a class="portfolio-item" href="#">
+                <a class="portfolio-item" href="https://github.com/Polkagris/E-shop-vuejs">
                     <div class="portfolio-thumb">
                         <img src="img/portfolio-1.jpg" alt="">
                     </div>
 
                     <div class="portfolio-info">
-                        <h3>Creative concepts</h3>
+                        <h3>{{data.Projects.project1}}</h3>
                         <small>domain.com</small>
                     </div>
                     <!-- portfolio-info -->
@@ -259,13 +257,13 @@
                 <!-- .portfolio-item -->
             </div>
             <div class="col-md-6">
-                <a class="portfolio-item" href="#">
+                <a class="portfolio-item" href="https://github.com/Polkagris/React-Comic-reader">
                     <div class="portfolio-thumb">
                         <img src="img/portfolio-2.jpg" alt="">
                     </div>
 
                     <div class="portfolio-info">
-                        <h3>Customer focused</h3>
+                        <h3>{{data.Projects.project2}}</h3>
                         <small>domain.com</small>
                     </div>
                     <!-- portfolio-info -->
@@ -273,13 +271,13 @@
                 <!-- .portfolio-item -->
             </div>
             <div class="col-md-6">
-                <a class="portfolio-item" href="#">
+                <a class="portfolio-item" href="https://github.com/Polkagris/reddit-api-project">
                     <div class="portfolio-thumb">
                         <img src="img/portfolio-3.jpg" alt="">
                     </div>
 
                     <div class="portfolio-info">
-                        <h3>Management methodology</h3>
+                        <h3>{{data.Projects.project3}}</h3>
                         <small>domain.com</small>
                     </div>
                     <!-- portfolio-info -->
@@ -287,13 +285,13 @@
                 <!-- .portfolio-item -->
             </div>
             <div class="col-md-6">
-                <a class="portfolio-item" href="#">
+                <a class="portfolio-item" href="https://github.com/Polkagris/pokedex-task23">
                     <div class="portfolio-thumb">
                         <img src="img/portfolio-4.jpg" alt="">
                     </div>
 
                     <div class="portfolio-info">
-                        <h3>Market research</h3>
+                        <h3>{{data.Projects.project4}}</h3>
                         <small>domain.com</small>
                     </div>
                     <!-- portfolio-info -->
@@ -320,26 +318,15 @@
         <div class="row">
             <div class="col-md-12">
                 <address>
-                    <strong>Address</strong><br>
-                    1355 Market Street, Suite 900<br>
-                    San Francisco, CA 94103
-
-                </address>
-                <address>
-                    <strong>Phone Number</strong><br>
-                    +61 3 8376 6284
-                </address>
-
-                <address>
-                    <strong>Mobile Number</strong><br>
-                    987 654 321
-                </address>
-
-
-                <address>
                     <strong>Email</strong><br>
-                    <a href="mailto:#">coffee@amelie.me</a>
+                    <a href="mailto:#">{{data.Email}}</a>
                 </address>
+                <address>
+                    <strong>Github</strong><br>
+                    <a href="{{data.Github}}">{{data.Github}}</a>
+                </address>
+
+                
             </div>
         </div>
         <!--.row-->
