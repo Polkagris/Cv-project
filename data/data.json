@@ -1,7 +1,7 @@
 
     {
         "Name":"Arne Bjerkås",
-        "Title":"Java fullstack developer",
+        "Title":"Java full stack developer",
         "YearOfBirth":"1990",
         "Phone": "",
         "Email":"arnenbj@gmail.com",
@@ -10,6 +10,17 @@
         "About":"",
         "Github":"https://github.com/Polkagris",
         "Image": "img/arne.jpg",
+        "Expertice":{
+            "exp1":"Javascript",
+            "exp2":"Java",
+            "exp3":"Design",
+            "exp4":"Communication"
+        },
+        "Interests":{
+            "interest1":"Books",
+            "interest2":"Movies",
+            "interest3":"Gaming"
+        },
         "Projects": {
                 "project1":"Vue E-shop",
                 "project2":"React e-book reader",
